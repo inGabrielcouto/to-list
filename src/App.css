@@ -1,0 +1,64 @@
+*{
+  margin: auto;
+  padding: 0px;
+}
+
+body {
+  background: linear-gradient(to bottom, #34e89e, #0f3443);
+  margin: 0;
+  min-height: 100vh;
+}
+.dark{
+  background: linear-gradient(to bottom, #000000, #191818); /* Gradiente de fundo escuro */
+  color: white; /* Texto em branco */
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.task-item {
+  height: 50px;
+  color: white;
+  background-color: rgb(13, 24, 16);
+  display: flex;
+  justify-content: space-between; /* Alinha os elementos à esquerda e à direita */
+  align-items: center; /* Centraliza verticalmente os elementos */
+  margin-bottom: 10px; /* Espaçamento inferior entre os itens */
+}
+
+.task-text {
+  flex-grow: 5; /* Faz o texto ocupar o espaço restante à esquerda dos botões */
+  margin-right: 10px; /* Espaçamento à direita do texto */
+}
+
+.remove-button {
+  margin-left: 10px; /* Espaçamento à esquerda do botão de remoção */
+  transition: background-color 0.5s; /* Define a transição para a mundança de cor */
+}
+
+.remove-button:hover{
+  background-color: red;
+}
+
+.button-clear-all{
+  transition: background-color 0.5s;
+}
+
+.button-clear-all:hover{
+background-color: red;
+}
+
+button{
+  font-family: cursive;
+  background-color: black;
+  color: white;
+}
+
+button{
+transition: background-color 0.5s;
+}
+
+button:hover{
+  background-color: rgb(67, 174, 67);
+}
